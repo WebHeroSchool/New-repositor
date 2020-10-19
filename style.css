@@ -1,0 +1,16 @@
+body {
+ margin: 0;
+}
+
+.wrapper {
+ height: 100vh;
+ background: url(./design.jpg);
+ background-size: cover;
+ }
+ 
+ .description, .title {
+font-family: sans-serif, arial;
+font-weight: 400;
+color: white;
+text-align: center;
+}
