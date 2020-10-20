@@ -7,9 +7,9 @@ body {
  background: url(./design.jpg);
  background-size: cover;
  }
- 
+
  .description, .title {
-font-family: sans-serif, arial;
+font-family: "Roboto";
 font-weight: 400;
 color: white;
 text-align: center;
