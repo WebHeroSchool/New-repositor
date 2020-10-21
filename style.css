@@ -1,12 +1,45 @@
 body {
- margin: 0;
+  margin: 0;
 }
 
-.wrapper {
- height: 100vh;
- background: url(./design.jpg);
- background-size: cover;
+.header {
+  margin: auto;
+  width: 80%;
+}
+
+ .main-section {
+   margin: auto;
+   width: 80%;
+   border: dashed 1px red;
  }
+ .wrapper {
+
+ margin: auto;
+
+ width: 80%;
+
+ border: dashed 1px red;
+
+}
+
+.logo, .menu {
+
+ display: inline-block;
+
+ border: dashed 1px red;
+
+}
+.logo {
+
+ margin-right: 63%;
+
+}
+.header {
+
+ display: flex;
+ justify-content: space-between;
+
+}
 
  .description, .title {
 font-family: "Roboto";
