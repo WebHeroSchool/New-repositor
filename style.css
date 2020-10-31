@@ -20,10 +20,18 @@ body {
 
 }
 .header {
+  align-items: center;
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
 }
+
+
+.main-content__subtitle {
+  margin-bottom: 41px
+  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+}
+
 
 .menu__item {
   position: relative;
@@ -33,6 +41,7 @@ body {
   text-decoration: none;
   transition: opacity .5s;
 }
+
 
 .menu__item:last-child {
   margin-right: 0;
