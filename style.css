@@ -1,8 +1,4 @@
 body {
-<<<<<<< HEAD
-=======
-  margin: 0;
->>>>>>> f963751f437add0e42db475ea15a40585185a63f
   margin: 0 auto;
   box-sizing: border-box;
   max-width: 1920px;
@@ -67,7 +63,6 @@ body {
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
-  font: 24px/32px pt_serifbold, arial, helvetica, sans-serif;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
 }
 
@@ -97,29 +92,23 @@ body {
   padding-bottom: 100px;
   background: url("Frame/Frame\ (1).svg");
   background-repeat: no-repeat;
-<<<<<<< HEAD
   background-position: top right;
   background-size: 50%;
-=======
   background-position: center right;
   background-size: 60% 90%;
 }
 .main {
   padding-right: 63%;
   background: top right no repeat url("Frame/Frame\ (1).svg");
->>>>>>> f963751f437add0e42db475ea15a40585185a63f
 }
 .main__title {
   margin: 0 0 30px 0;
   font: bold 50px/65px pt_serif, arial, helvetica, sans-serif;
 }
-<<<<<<< HEAD
 
-=======
 .main__title-text_highlight {
   background: #ECF3FF;
 }
->>>>>>> f963751f437add0e42db475ea15a40585185a63f
 .main__subtitle {
   margin: 0 0 40px 0;
   font: 18px/21px Roboto, arial, helvetica, sans-serif;
@@ -141,12 +130,10 @@ body {
   background: #00ad9f;
   color: #000;
 }
-<<<<<<< HEAD
 
 .main__title-text_highlight {
   background: #ECF3FF;
 }
-=======
 
 
 @media (max-width: 768px) {
@@ -174,17 +161,11 @@ body {
    font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
  }
 
->>>>>>> f963751f437add0e42db475ea15a40585185a63f
 
 .hamburger-menu{
   display: none;
 }
 
-<<<<<<< HEAD
-@media (max-width: 768px) {
- .menu {
-   display: none;
- }
 
 @media (max-width:1366px){
   .menu__item{
@@ -193,23 +174,26 @@ body {
   .wrapper{
   width: 70%;
 }
+
 .header{
  margin-bottom: 0;
- border: 1px solid red;
 }
+
 .main{
  padding-right: 50%;
  padding-top: 90px;
  background-position: center right;
- border: 1px solid red;
 }
+
 .main__title{
   font-size:50px;
   margin: 0 0 40px 0;
 }
+
 .main__subtitle{
   font-size: 18px;
 }
+
  .main__botton{
    font: 14px 'Roboto', arial,helvetica,sans-serif;
    display: inline-block;
@@ -219,12 +203,13 @@ body {
    text-decoration: none;
    border-radius: 4px;
    transition: opacity .5s;
-   border: 1px solid red;
   }
+
  @media (max-width:1024px) {
   .wrapper{
     width: 93%;
  }
+
   @media (max-width:575px)
     {
       .menu {
@@ -342,7 +327,6 @@ body {
          position: relative;
         }
     }
-=======
  .main__subtitle {
    margin-bottom: 25px;
    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
@@ -354,4 +338,3 @@ body {
    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
  }
 }
->>>>>>> f963751f437add0e42db475ea15a40585185a63f
