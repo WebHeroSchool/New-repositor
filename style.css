@@ -1,4 +1,8 @@
 body {
+<<<<<<< HEAD
+=======
+  margin: 0;
+>>>>>>> f963751f437add0e42db475ea15a40585185a63f
   margin: 0 auto;
   box-sizing: border-box;
   max-width: 1920px;
@@ -93,21 +97,34 @@ body {
   padding-bottom: 100px;
   background: url("Frame/Frame\ (1).svg");
   background-repeat: no-repeat;
+<<<<<<< HEAD
   background-position: top right;
   background-size: 50%;
+=======
+  background-position: center right;
+  background-size: 60% 90%;
 }
-
+.main {
+  padding-right: 63%;
+  background: top right no repeat url("Frame/Frame\ (1).svg");
+>>>>>>> f963751f437add0e42db475ea15a40585185a63f
+}
 .main__title {
   margin: 0 0 30px 0;
   font: bold 50px/65px pt_serif, arial, helvetica, sans-serif;
 }
+<<<<<<< HEAD
 
+=======
+.main__title-text_highlight {
+  background: #ECF3FF;
+}
+>>>>>>> f963751f437add0e42db475ea15a40585185a63f
 .main__subtitle {
   margin: 0 0 40px 0;
   font: 18px/21px Roboto, arial, helvetica, sans-serif;
   width: 80%;
 }
-
 .main__button {
   font: 18px Roboto, arial, helvetica, sans-serif;
   display: inline-block;
@@ -119,21 +136,51 @@ body {
   transition: opacity .5s;
   text-align: center;
   }
-
 .main__button:hover {
   opacity: 0.5;
   background: #00ad9f;
   color: #000;
 }
+<<<<<<< HEAD
 
 .main__title-text_highlight {
   background: #ECF3FF;
 }
+=======
+
+
+@media (max-width: 768px) {
+ .menu {
+   display: none;
+ }
+
+ .header {
+   margin-bottom: 28px;
+ }
+
+
+
+ .main {
+   text-align: center;
+   padding: 74% 0 0;
+   background-size: 74%;
+   background-position: top center;
+ }
+
+
+
+ .main__title {
+   margin-bottom: 44px;
+   font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
+ }
+
+>>>>>>> f963751f437add0e42db475ea15a40585185a63f
 
 .hamburger-menu{
   display: none;
 }
 
+<<<<<<< HEAD
 @media (max-width: 768px) {
  .menu {
    display: none;
@@ -295,3 +342,16 @@ body {
          position: relative;
         }
     }
+=======
+ .main__subtitle {
+   margin-bottom: 25px;
+   font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
+ }
+
+
+
+ .main__button {
+   font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+ }
+}
+>>>>>>> f963751f437add0e42db475ea15a40585185a63f
