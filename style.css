@@ -15,9 +15,11 @@ body {
 
 .logo {
   position: relative;
-  padding: 40px 0;
-  padding-left: 44px;
-  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  padding: 47px 0;
+  padding-left: 47px;
+  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 25px;
 }
 
 .logo__circle {
@@ -43,15 +45,18 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  width: 40%
+  justify-content: space-between;
 }
 
 .menu__item {
   position: relative;
-  margin-right: 28px;
+  margin-right: 29px;
   font: 500 18px/17px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
+  margin-bottom : -120px;
 }
 
 .menu__item:last-child {
@@ -122,7 +127,7 @@ body {
 
 .main__title {
   font: bold 71px/83px pt_serif, arial, helvetica, sans-serif;
-  margin: 0 0 45px 0;
+  margin: 0 0 33px 0;
 }
 
 .main__title-text_highlight {
@@ -131,7 +136,7 @@ body {
 
 .main__subtitle {
   font: 500 22px/26px Roboto, arial, helvetica, sans-serif;
-  margin: 0 16% 41px 0;
+  margin: 0 16% 42px 0;
 }
 
 .main__button {
@@ -308,6 +313,22 @@ body {
   #checkbox:checked ~ .logo {
     display: none;
   }
+}
+
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 175px 0;
+  list-style: none;
+  text-align: center;
+  background-color: white;
+  z-index: 5;
 }
 
 @media (min-width: 1024px) and (max-width: 1230px) {
