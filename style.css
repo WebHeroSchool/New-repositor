@@ -383,7 +383,7 @@ body {
   }
 
   .logo {
-    font: bold 26px/28px pt_serif, arial, helvetica, sans-serif;
+    font: bold 26px/20px pt_serif, arial, helvetica, sans-serif;
   }
 
   .menu__item {
@@ -393,7 +393,7 @@ body {
   }
 
   .main {
-    padding: 2% 56% 147px 0;
+    padding: 2% 35% 147px 0;
     background-size: 38vw 32vw;
   }
 
@@ -403,8 +403,9 @@ body {
   }
 
   .main__subtitle {
-    margin-bottom: 41px;
+    margin-bottom: 25px;
     font: 500 18px/22px Roboto, arial, helvetica, sans-serif;
+    width: 360px;
   }
 
   .main__button {
