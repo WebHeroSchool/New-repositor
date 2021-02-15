@@ -51,12 +51,13 @@ body {
 
 .menu__item {
   position: relative;
-  margin-right: 29px;
+  margin-right: 19px;
   font: 500 18px/17px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
-  margin-bottom : -120px;
+  padding-right: 9px;
+  margin-bottom : -6px;
 }
 
 .menu__item:last-child {
@@ -127,7 +128,7 @@ body {
 
 .main__title {
   font: bold 71px/83px pt_serif, arial, helvetica, sans-serif;
-  font-size: 68px;
+  font-size: 67px;
   margin: 0 0 43px 0;
 }
 
@@ -206,7 +207,7 @@ body {
   }
 
   .header {
-    margin-bottom: 92px;
+    margin-bottom: 80px;
   }
 
   .logo {
@@ -214,9 +215,10 @@ body {
   }
 
   .menu__item {
-    margin: 4px 25px 0 0;
+    margin: 4px 15px 0 0;
     font: 500 15px/17px Roboto, arial, helvetica, sans-serif;
-    margin-bottom: -113px;
+    margin-bottom: -1px;
+    margin-right: 11px;
   }
 
   .main {
@@ -227,16 +229,18 @@ body {
   .main__title {
     margin-bottom: 40px;
     font: bold 54px/65px pt_serif, arial, helvetica, sans-serif;
+    font-size: 51px;
   }
 
   .main__subtitle {
-    margin-bottom: 25px;
-    font: 500 18px/22px Roboto, arial, helvetica, sans-serif;
+    margin-bottom: 39px;
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     width: 360px;
+    padding-left: 8px;
   }
 
   .main__button {
-    font: 500 13px/15px Roboto, arial, helvetica, sans-serif;
+    font: 500 14px/15px Roboto, arial, helvetica, sans-serif;
   }
 }
 
