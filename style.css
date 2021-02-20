@@ -211,32 +211,32 @@ body {
   }
 
   .logo {
-    font: bold 26px/20px pt_serif, arial, helvetica, sans-serif;
+    font: bold 24px/17px pt_serif, arial, helvetica, sans-serif;
   }
 
   .menu__item {
     margin: 4px 15px 0 0;
     font: 500 15px/17px Roboto, arial, helvetica, sans-serif;
     margin-bottom: -1px;
-    margin-right: 11px;
+    margin-right: 25px;
   }
 
   .main {
-    padding: 2% 35% 147px 0;
-    background-size: 38vw 32vw;
+    padding: 2% 55% 147px 0;
+    background-size: 44vw 31vw;
   }
 
   .main__title {
-    margin-bottom: 40px;
+    margin-bottom: 41px;
     font: bold 54px/65px pt_serif, arial, helvetica, sans-serif;
-    font-size: 51px;
+    font-size: 50px;
   }
 
   .main__subtitle {
     margin-bottom: 39px;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     width: 360px;
-    padding-left: 8px;
+    padding-left: 0px;
   }
 
   .main__button {
